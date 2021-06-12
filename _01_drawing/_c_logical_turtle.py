@@ -34,14 +34,15 @@ if __name__ == '__main__':
     window.setup(width=0.75, height=0.8, startx=0, starty=0)
     
     # 1. Make a new turtle
-    
+    Maeve=turtle.Turtle()
     # 2. Make your turtle's shape 'turtle', .shape('turtle')
-    
+    Maeve.shape('turtle')
     # 3. Set your turtle's color using .color('green') and .pencolor('blue')
-    
+    Maeve.color('Green')
+    Maeve.pencolor('blue')
     # 4. Set and new width, length, and outline of our turtle
     #    my_turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
-
+    my_turtle.turtlesize(stretch_wib=10,
     # 5. Uncomment the following line and replace 'my_turtle' with your turtle
     # my_turtle.onclick(turtle_clicked)
 
